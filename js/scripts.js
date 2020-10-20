@@ -1,6 +1,7 @@
 $(document).ready(function() {
-  $(".clickable").click(function() {
+  $(".clickable-walrus").click(function() {
     $(".walrus-showing").fadeToggle();
     $(".walrus-hidden").fadeToggle();
+    $(".wiki-page").slideToggle();
   });
 });

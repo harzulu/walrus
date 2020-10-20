@@ -16,6 +16,10 @@ body {
   text-decoration: underline;
 }
 
+.wiki-page {
+  display: none;
+}
+
 img {
   width: 50%;
   height: auto;
