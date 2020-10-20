@@ -58,3 +58,9 @@ img {
   color: white;
 
 }
+
+.highlight {
+  background-color: yellow;
+  border-style: solid;
+  border-color: black;
+}

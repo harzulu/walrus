@@ -20,5 +20,9 @@ $(document).ready(function() {
     $("body").removeClass();
     $("body").addClass("light-mode");
   });
-
+  $("p").click(function(event) {
+    $target = $(event.target);
+    $("p").removeClass();
+    $target.addClass("highlight")
+  });
 });
