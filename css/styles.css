@@ -46,3 +46,15 @@ img {
 .click-cheetah:hover {
   text-decoration: underline;
 }
+
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+
+.dark-mode {
+  background-color: black;
+  color: white;
+
+}

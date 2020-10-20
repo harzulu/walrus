@@ -12,4 +12,13 @@ $(document).ready(function() {
   $(".open").click(function() {
     $(".cheetah-hide").slideDown();
   });
+  $("#dark-button").click(function() {
+    $("body").removeClass();
+    $("body").addClass("dark-mode");
+  });
+  $("#light-button").click(function() {
+    $("body").removeClass();
+    $("body").addClass("light-mode");
+  });
+
 });
