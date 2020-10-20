@@ -7,6 +7,9 @@ $(document).ready(function() {
     $(".wiki-page").slideToggle();
   });
   $(".click-cheetah").click(function() {
-    $(".cheetah-hide").slideToggle();
+    $(".cheetah-hide").slideUp();
+  });
+  $(".open").click(function() {
+    $(".cheetah-hide").slideDown();
   });
 });
