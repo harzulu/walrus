@@ -3,16 +3,20 @@ body {
   text-align: center;
 }
 
+.animal {
+  border-bottom: 3px solid black;
+}
+
 .walrus-showing {
   display: none;
 }
 
-.clickable {
+.clickable-walrus {
   cursor: pointer;
   color: #0088cc;
 }
 
-.clickable:hover {
+.clickable-walrus:hover {
   text-decoration: underline;
 }
 
@@ -20,7 +24,25 @@ body {
   display: none;
 }
 
+.clickable-giraffe {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable-giraffe:hover {
+  text-decoration: underline;
+}
+
 img {
   width: 50%;
   height: auto;
+}
+
+.click-cheetah {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.click-cheetah:hover {
+  text-decoration: underline;
 }
